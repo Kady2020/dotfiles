@@ -1,0 +1,13 @@
+{
+  "name": "dotfiles",
+  "version": "0.1.0",
+  "browserslist": [
+    "ie >= 10",
+    "opera 12.1",
+    "> 2%",
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "stylelint-config-standard": "^15.0.1"
+  }
+}
