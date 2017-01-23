@@ -1,6 +1,7 @@
 # Dotfiles
+Файлы _моих_ настроек, которые лежат в корне каждого проекта.
 
-## [.editorconfig](http://EditorConfig.org)
+## [.editorconfig](http://editorconfig.org)
 - Кодировка utf-8.
 - Отступы пробелами.
 - Ширина отступа равна 2 пробелам.
