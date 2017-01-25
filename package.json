@@ -6,8 +6,5 @@
     "opera 12.1",
     "> 2%",
     "last 2 versions"
-  ],
-  "devDependencies": {
-    "stylelint-config-standard": "^15.0.1"
-  }
+  ]
 }
