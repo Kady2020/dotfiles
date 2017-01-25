@@ -4,13 +4,15 @@
   "rule-nested-empty-line-before": [
     true,
     {
-      "except": ["first-nested"]
+      "except": ["first-nested"],
+      "ignore": ["after-comment"]
     }
   ],
   "at-rule-nested-empty-line-before": [
     true,
     {
-      "except": ["first-nested"]
+      "except": ["first-nested"],
+      "ignore": ["after-comment"]
     }
   ],
   "declaration-empty-line-before": [
@@ -18,6 +20,13 @@
     {
       "except": ["after-comment", "first-nested"],
       "ignore": ["after-declaration", "inside-single-line-block"]
+    }
+  ],
+  "comment-empty-line-before": [
+    true,
+    {
+      "except": ["first-nested"],
+      "ignore": ["after-comment"]
     }
   ],
   "order": [
