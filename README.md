@@ -37,6 +37,7 @@
 
 ## [.stylelintrc](https://stylelint.io)
 Используется [стандартный конфиг](https://github.com/stylelint/stylelint-config-standard) с оговорками.
+- Между группами деклараций может быть пустая строка.
 
 ## package.json
 Минимальные значения:
