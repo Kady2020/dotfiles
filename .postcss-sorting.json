@@ -85,6 +85,7 @@
         "flex-order",
         "flex-pack",
         "flex-align",
+        "align-items",
         "align-content"
       ]
     },
