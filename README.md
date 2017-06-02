@@ -13,7 +13,6 @@
 - Логи (`logs`, `*.log`).
 - Папки зависимостей (`node_modules`, `bower_components`).
 - Генерируемые файлы (`dist`, `_site`).
-- Служебные файлы операционных систем (`.DS_Store`, `Thumbs.db`).
 
 ## [.htmlhintrc](http://htmlhint.com)
 - Атрибуты в нижнем регистре.
