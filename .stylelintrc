@@ -71,7 +71,7 @@
     "declaration-block-single-line-max-declarations": 1,
     "declaration-block-trailing-semicolon": "always",
     "declaration-colon-newline-after": "always-multi-line",
-    "declaration-colon-space-after": "always-single-line",
+    "declaration-colon-space-after": "always",
     "declaration-colon-space-before": "never",
     "declaration-empty-line-before": [ "always", {
       except: [
@@ -131,5 +131,7 @@
     "value-list-comma-space-after": "always-single-line",
     "value-list-comma-space-before": "never",
     "value-list-max-empty-lines": 0,
+    "function-url-quotes": "always",
+    "font-family-name-quotes": "always-where-required",
   }
 }
