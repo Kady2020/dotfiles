@@ -18,7 +18,32 @@ Visual Formatting:
 - resize
 - cursor
 
-Margin & Padding:
+Flexbox:
+- flex-direction
+- flex-flow
+- flex-wrap
+- align-items
+- align-content
+- justify-content
+- flex
+- flex-basis
+- flex-grow
+- flex-shrink
+- align-self
+- order
+
+Box Sizing:
+- box-sizing
+- box-shadow
+- box-decoration-break
+- width
+- min-width
+- max-width
+- height
+- min-height
+- max-height
+
+Margin and Padding:
 - margin
 - margin-top
 - margin-right
@@ -30,69 +55,75 @@ Margin & Padding:
 - padding-bottom
 - padding-left
 
-Box Sizing:
-- box-sizing
-- box-shadow
-- width
-- height
-- max-width
-- max-height
-- min-width
-- min-height
-
 Font:
 - font
+- font-family
+- font-size
+- font-size-adjust
 - font-weight
 - font-style
 - font-variant
-- font-size
-- font-size-adjust
-- font-family
+- font-variant-alternates
+- font-variant-caps
+- font-variant-east-asian
+- font-variant-ligatures
+- font-variant-numeric
+- font-variant-position
 - font-effect
 - font-emphasize
 - font-emphasize-position
 - font-emphasize-style
 - font-smooth
+- -webkit-font-smoothing
 - font-stretch
+- font-feature-settings
+- font-kerning
+- font-language-override
+- font-synthesis
 
 Text:
 - vertical-align
 - text-align
+- text-align-last
 - text-decoration
+- text-decoration-color
+- text-decoration-line
+- text-decoration-skip
+- text-decoration-skip-ink
+- text-decoration-style
+- text-underline-position
 - text-emphasis
+- text-emphasis-color
+- text-emphasis-position
+- text-emphasis-style
 - text-height
 - text-indent
 - text-justify
+- text-orientation
 - text-outline
+- text-overflow
 - text-replace
+- text-shadow
+- text-size-adjust
 - text-transform
 - text-wrap
-- text-shadow
 - line-height
+- line-break
 - letter-spacing
 - white-space
 - white-space-collapse
 - word-break
 - word-spacing
 - word-wrap
-
-Background:
-- background
-- background-color
-- background-image
-- background-repeat
-- background-attachment
-- background-position
-- background-position-x
-- background-position-y
-- background-break
-- background-clip
-- background-origin
-- background-size
-
-Color:
-- color
-- opacity
+- overflow-wrap
+- hanging-punctuation
+- hyphens
+- caret-color
+- user-select
+- tab-size
+- writing-mode
+- direction
+- unicode-bidi
 
 Generated content:
 - content
@@ -100,19 +131,25 @@ Generated content:
 - counter-increment
 - counter-reset
 
-Outline:
-- outline
-- outline-offset
-- outline-width
-- outline-style
-- outline-color
+Color:
+- color
+- opacity
 
-Tables:
-- table-layout
-- caption-side
-- empty-cells
+Background:
+- background
+- background-attachment
+- background-clip
+- background-color
+- background-image
+- background-origin
+- background-position
+- background-position-x
+- background-position-y
+- background-repeat
+- background-size
+- background-break
 
-Border:
+Borders:
 - border
 - border-break
 - border-collapse
@@ -154,34 +191,25 @@ Border:
 - border-bottom-right-radius
 - border-bottom-left-radius
 
+Outline:
+- outline
+- outline-offset
+- outline-width
+- outline-style
+- outline-color
+
+Tables:
+- table-layout
+- caption-side
+- empty-cells
+
 Lists:
 - list-style
 - list-style-position
 - list-style-type
 - list-style-image
 
-Print:
-- page-break-before
-- page-break-inside
-- page-break-after
-- orphans
-- widows
-
-Others:
-- align-content
-- align-items
-- animation
-- animation-delay
-- animation-direction
-- animation-fill-mode
-- animation-iteration-count
-- animation-name
-- animation-play-state
-- animation-timing-function
-- appearance
-- align-self
-- backface-visibility
-- filter:progid:DXImageTransform.Microsoft.AlphaImageLoader
+Columns:
 - columns
 - column-count
 - column-fill
@@ -192,29 +220,50 @@ Others:
 - column-rule-width
 - column-span
 - column-width
-- flex
-- flex-basis
-- flex-direction
-- flex-flow
-- flex-grow
-- flex-shrink
-- flex-wrap
-- justify-content
-- max-resolution
-- min-resolution
-- filter
-- filter:progid:DXImageTransform.Microsoft.Alpha
-- order
-- orientation
-- text-overflow
-- transform
-- transform-origin
-- transform-style
+- break-after
+- break-inside
+- break-before
+
+Transitions:
 - transition
 - transition-delay
 - transition-duration
 - transition-property
 - transition-timing-function
-- user-select
-- -webkit-font-smoothing
-- writing-mode
+
+Transform:
+- backface-visibility
+- perspective
+- perspective-origin
+- transform
+- transform-box
+- transform-origin
+- transform-style
+
+Animations:
+- animation
+- animation-name
+- animation-duration
+- animation-timing-function
+- animation-delay
+- animation-direction
+- animation-iteration-count
+- animation-fill-mode
+- animation-play-state
+
+Print:
+- page-break-before
+- page-break-inside
+- page-break-after
+- orphans
+- widows
+
+Others:
+- pointer-events
+- touch-action
+- appearance
+- filter
+- filter:progid:DXImageTransform.Microsoft.Alpha
+- filter:progid:DXImageTransform.Microsoft.AlphaImageLoader
+- filter:progid:DXImageTransform.Microsoft.gradient
+- backdrop-filter
