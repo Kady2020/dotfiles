@@ -40,65 +40,60 @@
     {
       "emptyLineBefore": true,
       "properties": [
-        "font",
-        "font-family",
-        "font-size",
-        "font-weight",
-        "font-style",
-        "font-variant",
-        "font-size-adjust",
-        "font-stretch",
-        "font-effect",
-        "font-emphasize",
-        "font-emphasize-position",
-        "font-emphasize-style",
-        "font-smooth",
-        "line-height",
-        "text-size-adjust"
-      ]
-    },
-    {
-      "emptyLineBefore": true,
-      "properties": [
         "position",
-        "z-index",
         "top",
         "right",
         "bottom",
-        "left"
+        "left",
+        "z-index",
+        "float",
+        "clear",
+        "display",
+        "visibility",
+        "overflow",
+        "overflow-x",
+        "overflow-y",
+        "overflow-style",
+        "zoom",
+        "clip",
+        "resize",
+        "cursor"
       ]
     },
     {
       "emptyLineBefore": true,
       "properties": [
-        "display",
-        "visibility",
-        "float",
-        "clear",
-        "overflow",
-        "overflow-x",
-        "overflow-y",
-        "clip",
-        "zoom",
-        "flex-wrap",
         "flex-direction",
-        "flex-order",
-        "flex-pack",
-        "flex-align",
+        "flex-flow",
+        "flex-wrap",
         "align-items",
-        "align-content"
+        "align-content",
+        "justify-content",
+        "flex",
+        "flex-basis",
+        "flex-grow",
+        "flex-shrink",
+        "align-self",
+        "order"
       ]
     },
     {
       "emptyLineBefore": true,
       "properties": [
         "box-sizing",
+        "box-shadow",
+        "box-decoration-break",
         "width",
         "min-width",
         "max-width",
         "height",
         "min-height",
-        "max-height",
+        "max-height"
+      ]
+    },
+    {
+      "emptyLineBefore": true,
+      "properties": [
         "margin",
         "margin-top",
         "margin-right",
@@ -114,15 +109,77 @@
     {
       "emptyLineBefore": true,
       "properties": [
-        "table-layout",
-        "empty-cells",
-        "caption-side",
-        "border-spacing",
-        "border-collapse",
-        "list-style",
-        "list-style-position",
-        "list-style-type",
-        "list-style-image"
+        "font",
+        "font-family",
+        "font-size",
+        "font-size-adjust",
+        "font-weight",
+        "font-style",
+        "font-variant",
+        "font-variant-alternates",
+        "font-variant-caps",
+        "font-variant-east-asian",
+        "font-variant-ligatures",
+        "font-variant-numeric",
+        "font-variant-position",
+        "font-effect",
+        "font-emphasize",
+        "font-emphasize-position",
+        "font-emphasize-style",
+        "font-smooth",
+        "-webkit-font-smoothing",
+        "font-stretch",
+        "font-feature-settings",
+        "font-kerning",
+        "font-language-override",
+        "font-synthesis"
+      ]
+    },
+    {
+      "emptyLineBefore": true,
+      "properties": [
+        "vertical-align",
+        "text-align",
+        "text-align-last",
+        "text-decoration",
+        "text-decoration-color",
+        "text-decoration-line",
+        "text-decoration-skip",
+        "text-decoration-skip-ink",
+        "text-decoration-style",
+        "text-underline-position",
+        "text-emphasis",
+        "text-emphasis-color",
+        "text-emphasis-position",
+        "text-emphasis-style",
+        "text-height",
+        "text-indent",
+        "text-justify",
+        "text-orientation",
+        "text-outline",
+        "text-overflow",
+        "text-replace",
+        "text-shadow",
+        "text-size-adjust",
+        "text-transform",
+        "text-wrap",
+        "line-height",
+        "line-break",
+        "letter-spacing",
+        "white-space",
+        "white-space-collapse",
+        "word-break",
+        "word-spacing",
+        "word-wrap",
+        "overflow-wrap",
+        "hanging-punctuation",
+        "hyphens",
+        "caret-color",
+        "user-select",
+        "tab-size",
+        "writing-mode",
+        "direction",
+        "unicode-bidi"
       ]
     },
     {
@@ -130,67 +187,56 @@
       "properties": [
         "content",
         "quotes",
-        "counter-reset",
         "counter-increment",
-        "resize",
-        "cursor",
-        "user-select",
-        "touch-action",
-        "nav-index",
-        "nav-up",
-        "nav-right",
-        "nav-down",
-        "nav-left",
-        "transition",
-        "transition-delay",
-        "transition-timing-function",
-        "transition-duration",
-        "transition-property",
-        "transform",
-        "transform-origin",
-        "animation",
-        "animation-name",
-        "animation-duration",
-        "animation-play-state",
-        "animation-timing-function",
-        "animation-delay",
-        "animation-iteration-count",
-        "animation-direction",
-        "text-align",
-        "text-align-last",
-        "vertical-align",
-        "white-space",
-        "text-decoration",
-        "text-emphasis",
-        "text-emphasis-color",
-        "text-emphasis-style",
-        "text-emphasis-position",
-        "text-indent",
-        "text-justify",
-        "letter-spacing",
-        "word-spacing",
-        "text-outline",
-        "text-transform",
-        "text-wrap",
-        "text-overflow",
-        "text-overflow-ellipsis",
-        "text-overflow-mode",
-        "word-wrap",
-        "word-break",
-        "tab-size",
-        "hyphens",
-        "pointer-events"
+        "counter-reset"
       ]
     },
     {
       "emptyLineBefore": true,
       "properties": [
-        "opacity",
         "color",
+        "opacity"
+      ]
+    },
+    {
+      "emptyLineBefore": true,
+      "properties": [
+        "background",
+        "background-attachment",
+        "background-clip",
+        "background-color",
+        "background-image",
+        "background-origin",
+        "background-position",
+        "background-position-x",
+        "background-position-y",
+        "background-repeat",
+        "background-size",
+        "background-break"
+      ]
+    },
+    {
+      "emptyLineBefore": true,
+      "properties": [
         "border",
-        "border-width",
-        "border-style",
+        "border-break",
+        "border-collapse",
         "border-color",
+        "border-image",
+        "border-top-image",
+        "border-right-image",
+        "border-bottom-image",
+        "border-left-image",
+        "border-corner-image",
+        "border-top-left-image",
+        "border-top-right-image",
+        "border-bottom-right-image",
+        "border-bottom-left-image",
+        "border-fit",
+        "border-length",
+        "border-spacing",
+        "border-style",
+        "border-width",
         "border-top",
         "border-top-width",
         "border-top-style",
@@ -208,37 +254,121 @@
         "border-left-style",
         "border-left-color",
         "border-radius",
-        "border-top-left-radius",
         "border-top-right-radius",
+        "border-top-left-radius",
         "border-bottom-right-radius",
-        "border-bottom-left-radius",
-        "border-image",
-        "border-image-source",
-        "border-image-slice",
-        "border-image-width",
-        "border-image-outset",
-        "border-image-repeat",
+        "border-bottom-left-radius"
+      ]
+    },
+    {
+      "emptyLineBefore": true,
+      "properties": [
         "outline",
+        "outline-offset",
         "outline-width",
         "outline-style",
-        "outline-color",
-        "outline-offset",
-        "background",
+        "outline-color"
+      ]
+    },
+    {
+      "emptyLineBefore": true,
+      "properties": [
+        "color",
+        "opacity"
+      ]
+    },
+    {
+      "emptyLineBefore": true,
+      "properties": [
+        "table-layout",
+        "caption-side",
+        "empty-cells"
+      ]
+    },
+    {
+      "emptyLineBefore": true,
+      "properties": [
+        "list-style",
+        "list-style-position",
+        "list-style-type",
+        "list-style-image"
+      ]
+    },
+    {
+      "emptyLineBefore": true,
+      "properties": [
+        "columns",
+        "column-count",
+        "column-fill",
+        "column-gap",
+        "column-rule",
+        "column-rule-color",
+        "column-rule-style",
+        "column-rule-width",
+        "column-span",
+        "column-width",
+        "break-after",
+        "break-inside",
+        "break-before"
+      ]
+    },
+    {
+      "emptyLineBefore": true,
+      "properties": [
+        "transition",
+        "transition-delay",
+        "transition-duration",
+        "transition-property",
+        "transition-timing-function"
+      ]
+    },
+    {
+      "emptyLineBefore": true,
+      "properties": [
+        "backface-visibility",
+        "perspective",
+        "perspective-origin",
+        "transform",
+        "transform-box",
+        "transform-origin",
+        "transform-style"
+      ]
+    },
+    {
+      "emptyLineBefore": true,
+      "properties": [
+        "animation",
+        "animation-name",
+        "animation-duration",
+        "animation-timing-function",
+        "animation-delay",
+        "animation-direction",
+        "animation-iteration-count",
+        "animation-fill-mode",
+        "animation-play-state"
+      ]
+    },
+    {
+      "emptyLineBefore": true,
+      "properties": [
+        "page-break-before",
+        "page-break-inside",
+        "page-break-after",
+        "orphans",
+        "widows"
+      ]
+    },
+    {
+      "emptyLineBefore": true,
+      "properties": [
+        "pointer-events",
+        "touch-action",
+        "appearance",
+        "filter",
+        "filter:progid:DXImageTransform.Microsoft.Alpha",
         "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader",
-        "background-color",
-        "background-image",
-        "background-repeat",
-        "background-attachment",
-        "background-position",
-        "background-position-x",
-        "background-position-y",
-        "background-clip",
-        "background-origin",
-        "background-size",
-        "box-decoration-break",
-        "box-shadow",
         "filter:progid:DXImageTransform.Microsoft.gradient",
-        "text-shadow"
+        "backdrop-filter"
       ]
     }
   ]
