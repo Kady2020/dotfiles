@@ -1,0 +1,220 @@
+Visual Formatting:
+- position
+- top
+- right
+- bottom
+- left
+- z-index
+- float
+- clear
+- display
+- visibility
+- overflow
+- overflow-x
+- overflow-y
+- overflow-style
+- zoom
+- clip
+- resize
+- cursor
+
+Margin & Padding:
+- margin
+- margin-top
+- margin-right
+- margin-bottom
+- margin-left
+- padding
+- padding-top
+- padding-right
+- padding-bottom
+- padding-left
+
+Box Sizing:
+- box-sizing
+- box-shadow
+- width
+- height
+- max-width
+- max-height
+- min-width
+- min-height
+
+Font:
+- font
+- font-weight
+- font-style
+- font-variant
+- font-size
+- font-size-adjust
+- font-family
+- font-effect
+- font-emphasize
+- font-emphasize-position
+- font-emphasize-style
+- font-smooth
+- font-stretch
+
+Text:
+- vertical-align
+- text-align
+- text-decoration
+- text-emphasis
+- text-height
+- text-indent
+- text-justify
+- text-outline
+- text-replace
+- text-transform
+- text-wrap
+- text-shadow
+- line-height
+- letter-spacing
+- white-space
+- white-space-collapse
+- word-break
+- word-spacing
+- word-wrap
+
+Background:
+- background
+- background-color
+- background-image
+- background-repeat
+- background-attachment
+- background-position
+- background-position-x
+- background-position-y
+- background-break
+- background-clip
+- background-origin
+- background-size
+
+Color:
+- color
+- opacity
+
+Generated content:
+- content
+- quotes
+- counter-increment
+- counter-reset
+
+Outline:
+- outline
+- outline-offset
+- outline-width
+- outline-style
+- outline-color
+
+Tables:
+- table-layout
+- caption-side
+- empty-cells
+
+Border:
+- border
+- border-break
+- border-collapse
+- border-color
+- border-image
+- border-top-image
+- border-right-image
+- border-bottom-image
+- border-left-image
+- border-corner-image
+- border-top-left-image
+- border-top-right-image
+- border-bottom-right-image
+- border-bottom-left-image
+- border-fit
+- border-length
+- border-spacing
+- border-style
+- border-width
+- border-top
+- border-top-width
+- border-top-style
+- border-top-color
+- border-right
+- border-right-width
+- border-right-style
+- border-right-color
+- border-bottom
+- border-bottom-width
+- border-bottom-style
+- border-bottom-color
+- border-left
+- border-left-width
+- border-left-style
+- border-left-color
+- border-radius
+- border-top-right-radius
+- border-top-left-radius
+- border-bottom-right-radius
+- border-bottom-left-radius
+
+Lists:
+- list-style
+- list-style-position
+- list-style-type
+- list-style-image
+
+Print:
+- page-break-before
+- page-break-inside
+- page-break-after
+- orphans
+- widows
+
+Others:
+- align-content
+- align-items
+- animation
+- animation-delay
+- animation-direction
+- animation-fill-mode
+- animation-iteration-count
+- animation-name
+- animation-play-state
+- animation-timing-function
+- appearance
+- align-self
+- backface-visibility
+- filter:progid:DXImageTransform.Microsoft.AlphaImageLoader
+- columns
+- column-count
+- column-fill
+- column-gap
+- column-rule
+- column-rule-color
+- column-rule-style
+- column-rule-width
+- column-span
+- column-width
+- flex
+- flex-basis
+- flex-direction
+- flex-flow
+- flex-grow
+- flex-shrink
+- flex-wrap
+- justify-content
+- max-resolution
+- min-resolution
+- filter
+- filter:progid:DXImageTransform.Microsoft.Alpha
+- order
+- orientation
+- text-overflow
+- transform
+- transform-origin
+- transform-style
+- transition
+- transition-delay
+- transition-duration
+- transition-property
+- transition-timing-function
+- user-select
+- -webkit-font-smoothing
+- writing-mode
