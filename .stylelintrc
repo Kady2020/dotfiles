@@ -80,6 +80,7 @@
       ],
       ignore: [
         "after-comment",
+        "after-declaration",
         "inside-single-line-block",
       ],
     } ],
