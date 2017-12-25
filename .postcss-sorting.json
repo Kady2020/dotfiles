@@ -38,7 +38,6 @@
   ],
   "properties-order": [
     {
-      "emptyLineBefore": true,
       "properties": [
         "position",
         "top",
@@ -61,7 +60,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "flex-direction",
         "flex-flow",
@@ -78,7 +76,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "box-sizing",
         "box-shadow",
@@ -92,7 +89,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "margin",
         "margin-top",
@@ -107,7 +103,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "font",
         "font-family",
@@ -136,7 +131,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "vertical-align",
         "text-align",
@@ -183,7 +177,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "content",
         "quotes",
@@ -192,14 +185,12 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "color",
         "opacity"
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "background",
         "background-attachment",
@@ -216,7 +207,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "border",
         "border-break",
@@ -261,7 +251,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "outline",
         "outline-offset",
@@ -271,14 +260,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
-      "properties": [
-        "color",
-        "opacity"
-      ]
-    },
-    {
-      "emptyLineBefore": true,
       "properties": [
         "table-layout",
         "caption-side",
@@ -286,7 +267,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "list-style",
         "list-style-position",
@@ -295,7 +275,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "columns",
         "column-count",
@@ -313,7 +292,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "transition",
         "transition-delay",
@@ -323,7 +301,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "backface-visibility",
         "perspective",
@@ -335,7 +312,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "animation",
         "animation-name",
@@ -349,7 +325,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "page-break-before",
         "page-break-inside",
@@ -359,7 +334,6 @@
       ]
     },
     {
-      "emptyLineBefore": true,
       "properties": [
         "pointer-events",
         "touch-action",
