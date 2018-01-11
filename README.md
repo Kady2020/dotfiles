@@ -1,5 +1,5 @@
 # Dotfiles
-Файлы _моих_ настроек, которые лежат в корне каждого проекта.
+Файлы моих настроек, которые лежат в корне каждого проекта.
 
 ## [.editorconfig](http://editorconfig.org)
 - Кодировка utf-8.
@@ -31,12 +31,11 @@
 - Удалять все пустые строки.
 - Вставлять пустую строку перед вложенными свойствами.
 - Вставлять пустую строку перед вложенными @-свойствами.
-- Вставлять пустую строку перед группами свойств.
-- Сортировка свойств из `csscomb` `bem-components`.
+- Сортировка свойств по моему принципу.
 
 ## [.stylelintrc](https://stylelint.io)
-Используется [стандартный конфиг](https://github.com/stylelint/stylelint-config-standard) с оговорками.
-- Между группами деклараций может быть пустая строка.
+
+Скопированы и подправлены стандартные [stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended) и [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard).
 
 ## package.json
 Минимальные значения:
