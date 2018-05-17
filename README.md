@@ -39,8 +39,8 @@
 
 Подправлено:
 - edit `"declaration-colon-space-after": "always-single-line"` to `"always"`
-- edit `"no-descending-specificity": true` to `false`
-- edit `"no-duplicate-selectors": true` to `false`
+- edit `"no-descending-specificity": true` to `null`
+- edit `"no-duplicate-selectors": true` to `null`
 - add `"function-url-quotes": "always"`
 - add `"font-family-name-quotes": "always-where-required"`
 
