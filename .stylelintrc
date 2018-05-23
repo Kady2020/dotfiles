@@ -133,5 +133,6 @@
     "value-list-max-empty-lines": 0,
     "function-url-quotes": "always",
     "font-family-name-quotes": "always-where-required",
+    "string-quotes": "double"
   }
 }
