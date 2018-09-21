@@ -38,11 +38,10 @@
 Скопированы и подправлены стандартные [stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended) и [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard).
 
 Подправлено:
-- edit `"declaration-colon-space-after": "always-single-line"` to `"always"`
 - edit `"no-descending-specificity": true` to `null`
 - edit `"no-duplicate-selectors": true` to `null`
-- add `"function-url-quotes": "always"`
 - add `"font-family-name-quotes": "always-where-required"`
+- add `"string-quotes": "double"`
 
 ## package.json
 Минимальные значения:
