@@ -40,8 +40,11 @@
 Подправлено:
 - edit `"no-descending-specificity": true` to `null`
 - edit `"no-duplicate-selectors": true` to `null`
+- edit `"declaration-colon-newline-after": null,`
+- edit `"value-list-comma-newline-after": null`
 - add `"font-family-name-quotes": "always-where-required"`
 - add `"string-quotes": "double"`
+- add `"shorthand-property-no-redundant-values": true`
 
 ## package.json
 Минимальные значения:
