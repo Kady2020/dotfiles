@@ -1,10 +1,4 @@
 {
   "name": "dotfiles",
-  "version": "0.1.0",
-  "browserslist": [
-    "ie >= 10",
-    "opera 12.1",
-    "> 2%",
-    "last 2 versions"
-  ]
+  "version": "0.1.0"
 }

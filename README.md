@@ -1,7 +1,9 @@
 # Dotfiles
+
 Файлы моих настроек, которые лежат в корне каждого проекта.
 
 ## [.editorconfig](http://editorconfig.org)
+
 - Кодировка utf-8.
 - Отступы пробелами.
 - Ширина отступа равна 2 пробелам.
@@ -10,11 +12,13 @@
 - В конце файла добавляется пустая строка.
 
 ## .gitignore
+
 - Логи (`logs`, `*.log`).
 - Папки зависимостей (`node_modules`, `bower_components`).
 - Генерируемые файлы (`dist`, `_site`).
 
 ## [.htmlhintrc](http://htmlhint.com)
+
 - Атрибуты в нижнем регистре.
 - Значения атрибутов в двойных кавычках.
 - Экранирование специальных символов.
@@ -27,6 +31,7 @@
 - У картинок обязательно должен быть атрибут `alt`.
 
 ## [.postcss-sorting.json](https://github.com/lysyi3m/atom-postcss-sorting)
+
 - Неизвестные свойства вниз.
 - Удалять все пустые строки.
 - Вставлять пустую строку перед вложенными свойствами.
@@ -38,6 +43,7 @@
 Скопированы и подправлены стандартные [stylelint-config-recommended](https://github.com/stylelint/stylelint-config-recommended) и [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard).
 
 Подправлено:
+
 - edit `"no-descending-specificity": true` to `null`
 - edit `"no-duplicate-selectors": true` to `null`
 - edit `"declaration-colon-newline-after": null,`
@@ -47,7 +53,9 @@
 - add `"shorthand-property-no-redundant-values": true`
 
 ## package.json
+
 Минимальные значения:
+
 ```json
 {
   "name": "dotfiles",
@@ -68,3 +76,9 @@
 - Пробелы в фигурных скобках `{ foo: bar }`.
 - Скобку в JSX оставлять на той же строке.
 - Без скобок стрелочные функции `x => x`.
+
+## [.browserslistrc](https://github.com/browserslist/browserslist)
+
+- `> 1%`
+- `last 2 versions`
+- `not ie <= 8`
